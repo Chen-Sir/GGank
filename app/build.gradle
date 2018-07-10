@@ -25,7 +25,7 @@ android {
 
             android.applicationVariants.all { variant ->
                 variant.outputs.all {
-                    outputFileName = "GGank_v${defaultConfig.versionName}.apk"
+                    outputFileName = "GGank_v${defaultConfig.versionName}_${variant.buildType.name}.apk"
                 }
             }
         }
