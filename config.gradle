@@ -1,0 +1,10 @@
+
+ext{
+
+    android = [compileSdkVersion: 26,
+               applicationId    : "me.chensir.ggank",
+               minSdkVersion    : 15,
+               targetSdkVersion : 22,
+               versionCode      : 1,
+               versionName      : "1.0.0"]
+}

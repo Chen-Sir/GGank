@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/item_gank_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_31333b"
+        android:textSize="17sp"
+        tools:text="我是标题干货集中营干货集中营干货集中营干货集中营干货集中营干货集中营"/>
+
+    <ImageView
+        android:id="@+id/item_gank_meizi"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/item_gank_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_extension_grey_500_18dp"
+            android:drawablePadding="4dp"
+            android:textColor="@color/color_a7a9ad"
+            android:textSize="14sp"
+            tools:text="Android"/>
+
+
+        <TextView
+            android:id="@+id/item_gank_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/color_a7a9ad"
+            android:textSize="14sp"
+            tools:text="via: ChenSir"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

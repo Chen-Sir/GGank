@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">GGank</string>
+
+    <string name="home">首页</string>
+    <string name="welfare">福利</string>
+    <string name="about">关于</string>
+    <string name="via_author">via: %1$s</string>
+    <string name="introduce_title">App介绍</string>
+    <string name="my_github">我的GitHub：https://github.com/Chen-Sir</string>
+    <string name="me">_Sir。cHEN</string>
+    <string name="me_location">四川 成都</string>
+    <string name="developer">开发者</string>
+    <string name="open_source_library">开源库</string>
+    <string name="introduce">GGank是干货集中营的非官方Android 客户端。每天一张精选妹纸图，一个休息视频以及若干Android，iOS和前端方面的精选干货。\n\n数据内容来源于 http://gank.io \n\n本项目完全开源，目前为 1.0 版本，使用RxJava2、Retrofit v2和Glide v4框架等等。这也是本人的Personal Practices，追求代码优雅、质量和Android最佳实践。\n\n在之后的版本会继续优化代码并使用MVP架构进行重构，未来会进一步完善功能和体验，慢慢加入Android Architecture Components以及其他Google官方组件的实践。</string>
+    <string name="open_source_libraries_list">com.google.guava:guava:18.0\nme.drakeet.multitype:multitype:3.4.4\ncom.jakewharton:butterknife:8.8.1\ncom.squareup.retrofit2:retrofit:2.4.0\ncom.squareup.okhttp3:logging-interceptor:3.10.0\ncom.google.code.gson:gson:2.8.2\nio.reactivex.rxjava2:rxandroid:2.0.1\ncom.trello.rxlifecycle2:rxlifecycle-components:2.2.1\ncom.squareup.retrofit2:converter-gson:2.3.0\ncom.squareup.retrofit2:adapter-rxjava2:2.3.0\ncom.github.chrisbanes.photoview:library:1.2.3\ncom.github.bumptech.glide:glide:4.7.1\ncom.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1\ncom.squareup.leakcanary:leakcanary-android:1.5.4</string>
+    <string name="ok">OK</string>
+
+    <string name="bottom_nav_behavior">me.chensir.ggank.ui.behavior.BottomNavigationViewBehavior</string>
+    <string name="appbar_pull_zoom_behavior">me.chensir.ggank.ui.behavior.AppBarPullZoomBehavior</string>
+
+</resources>

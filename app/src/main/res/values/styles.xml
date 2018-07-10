@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <item name="android:listDivider">@drawable/divider</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ViaTextAppearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/color_a7a9ad</item>
+    </style>
+
+
+    <style name="AboutPageTitleStyle">
+        <item name="android:textColor">@color/md_grey_600</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AboutPageCardStyle" parent="CardView">
+        <item name="cardCornerRadius">6dp</item>
+        <item name="contentPadding">6dp</item>
+    </style>
+
+</resources>
